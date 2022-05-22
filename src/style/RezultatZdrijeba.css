@@ -1,0 +1,38 @@
+.RezultatZdrijeba {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.lijevatablicaA, .desnatablicaB {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 100px;
+}
+
+.lijevatablicaA {
+    left: 0;
+}
+
+.desnatablicaB {
+    right: 0;
+}
+
+.centar {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.button-krenimo {
+    text-align: center;
+    margin-top: 300px;
+    padding: 20px 50px;
+    font-size: 20px;
+}
