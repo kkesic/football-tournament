@@ -5,29 +5,12 @@
 
 
 .lijevatablicaA, .desnatablicaB {
-    height: 100%;
     width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 100px;
+    display: inline-block;
 }
 
-.lijevatablicaA {
-    left: 0;
-}
-
-.desnatablicaB {
-    right: 0;
-}
-
-.centar {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+table {
+    margin: auto;
 }
 
 .button-krenimo {

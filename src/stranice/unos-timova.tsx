@@ -28,7 +28,7 @@ export const UnosTimova: React.FC = () => {
         }
         localStorage.setItem("skupinaA", JSON.stringify(skupinaA));
         localStorage.setItem("skupinaB", JSON.stringify(skupinaB));
-        navigate("/rezultat-zdrijeba")
+        navigate("/rezultat-zdrijeba");
     }
 
 
